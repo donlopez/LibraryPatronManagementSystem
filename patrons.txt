@@ -1,0 +1,3 @@
+1000001, John Smith, 123 Elm St, 45.50
+1000002, Maria Jones, 456 Oak Ave, 0.00
+1000003, Alex Chen, 789 Pine Blvd, 13.25
