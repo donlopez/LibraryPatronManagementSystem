@@ -1,11 +1,16 @@
 package com.lopez.lms;
 
+/**
+ * Represents a single library patron with ID, name, address, and fine balance.
+ * This class serves as the data model for each individual patron.
+ */
 public class Patron {
     private String id;
     private String name;
     private String address;
     private double fine;
 
+    // Constructor to initialize a new Patron
     public Patron(String id, String name, String address, double fine) {
         this.id = id;
         this.name = name;
@@ -13,7 +18,7 @@ public class Patron {
         this.fine = fine;
     }
 
-    // Getters and Setters
+    // Getters and setters for Patron fields
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
 
@@ -26,8 +31,10 @@ public class Patron {
     public double getFine() { return fine; }
     public void setFine(double fine) { this.fine = fine; }
 
+    /**
+     * Prints patron information in a readable format.
+     */
     public void display() {
         System.out.printf("ID: %s | Name: %s | Address: %s | Fine: $%.2f%n", id, name, address, fine);
     }
 }
-
