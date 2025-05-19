@@ -35,6 +35,6 @@ public class Patron {
      * Prints patron information in a readable format.
      */
     public void display() {
-        System.out.printf("ID: %s | Name: %s | Address: %s | Fine: $%.2f%n", id, name, address, fine);
+        System.out.printf("ID: %s | Name: %s | Address: %s | Fine: %.2f%n", id, name, address, fine);
     }
 }
